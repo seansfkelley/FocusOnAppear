@@ -11,6 +11,8 @@ class FirstResponderField: UITextField {
         keyboardType = config.keyboardType
         returnKeyType = config.returnKeyType
         isSecureTextEntry = config.isSecure
+        autocapitalizationType = config.autocapitalizationType
+        keyboardAppearance = config.keyboardAppearance
         languageCode = config.languageCode
         becomeFirstResponder()
     }
